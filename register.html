@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>التسجيل في برامج GROW HUB</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Tahoma, Arial, sans-serif;
+  background: #f5f8f6;
+  color: #18352b;
+}
+
+header {
+  background: linear-gradient(135deg, #0d6045, #24966b);
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+header p {
+  margin: 0;
+  font-size: 17px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.form-box {
+  background: white;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+}
+
+h2 {
+  text-align: center;
+  color: #0d6045;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin: 16px 0 7px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ccd8d2;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 14px;
+  border: none;
+  border-radius: 30px;
+  background: #0d6045;
+  color: white;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #24966b;
+}
+
+.back {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #0d6045;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #697a73;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>GROW HUB 🌱</h1>
+  <p>التسجيل في برامج التدريب والتمكين</p>
+</header>
+
+<div class="container">
+
+  <div class="form-box">
+
+    <h2>طلب التسجيل</h2>
+
+    <form>
+
+      <label>الاسم الكامل</label>
+      <input type="text" placeholder="اكتب اسمك الكامل" required>
+
+      <label>العمر</label>
+      <input type="number" placeholder="اكتب عمرك" min="10" max="100" required>
+
+      <label>رقم التواصل</label>
+      <input type="tel" placeholder="اكتب رقم الهاتف" required>
+
+      <label>اختر البرنامج</label>
+
+      <select required>
+        <option value="">-- اختر البرنامج --</option>
+        <option>الخياطة</option>
+        <option>الحلاقة</option>
+        <option>التجميل والكوافير</option>
+        <option>صناعة المنظفات</option>
+        <option>التصنيع الغذائي المنزلي</option>
+        <option>الحاسوب والمهارات الرقمية</option>
+        <option>التعليم والدعم الدراسي</option>
+        <option>التثقيف الصحي</option>
+      </select>
+
+      <label>المنطقة</label>
+      <input type="text" placeholder="اكتب المنطقة أو المدينة">
+
+      <label>ملاحظات إضافية</label>
+      <textarea placeholder="اكتب أي معلومات ترغب بإضافتها"></textarea>
+
+      <button type="submit">
+        إرسال طلب التسجيل
+      </button>
+
+    </form>
+
+    <a class="back" href="index.html">
+      ← العودة إلى الصفحة الرئيسية
+    </a>
+
+  </div>
+
+</div>
+
+<footer>
+  © 2026 GROW HUB
+</footer>
+
+</body>
+</html>
